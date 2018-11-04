@@ -4,6 +4,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .nav {
 	margin: 20px;
 	height: 40px;
@@ -57,7 +58,9 @@
 
 
 @media (max-width: 768px) {
-	
+	.menu{
+		display: block;
+	}
 	.leftside {
 		width: 30%;
 	}
